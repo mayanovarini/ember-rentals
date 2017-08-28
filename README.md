@@ -1,9 +1,8 @@
 # super-rentals
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Marketplace application built using EmberJS for property rentals.
 
-## Prerequisites
+## Prerequisites to work on this on your own engine
 
 You will need the following things properly installed on your computer.
 
