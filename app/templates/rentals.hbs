@@ -1,18 +1,10 @@
 <div class="jumbo">
   <div class="right tomster"></div>
-  <h2>Welcome!</h2>
-  <p>We hope you will find the most pleasant place to stay here.</p>
+  <h2>Welcome to Super Rentals!</h2>
+  <p>Where you will find the best accomodation for your vacation or business trip on Super Rentals.</p>
+  <h4>If not the best, at least a really really really good one is guaranteed.</h4><br><br>
   {{#link-to 'about' class="button"}}
-    About Us
+    What is Super Rentals?
   {{/link-to}}
 </div>
-
-{{#list-filter
-   filter=(action 'filterByCity')
-   as |rentals|}}
-  <ul class="results">
-    {{#each rentals as |rentalUnit|}}
-      <li>{{rental-listing rental=rentalUnit}}</li>
-    {{/each}}
-  </ul>
-{{/list-filter}}
+{{outlet}}
